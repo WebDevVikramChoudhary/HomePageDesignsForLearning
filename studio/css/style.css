@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-image: url("../bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header {
+  height: 100vh;
+  width: 100%;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+header nav a {
+  margin-left: -4%;
+  font-weight: 900;
+  padding: 1rem;
+  color: black;
+  font-size: 2rem;
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-shadow: 3px 5px 4px rgba(255, 255, 255, 0.521);
+}
+
+header nav ul {
+  padding: 2rem;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 25%;
+}
+
+header nav ul li:nth-child(1) a {
+  color: black;
+}
+
+header nav ul a {
+  font-weight: 500;
+  font-family: roboto;
+  padding: 1rem;
+  color: rgba(0, 0, 0, 0.692);
+  font-size: 1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-shadow: none;
+}
+
+header nav ul a:hover {
+  color: black;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 10%;
+}
+
+section .left h1 {
+  margin-left: -0.5rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: 900;
+  font-size: 4rem;
+  color: black;
+  margin-bottom: 1rem;
+}
+
+section .left h2 {
+  font-weight: 500;
+  font-size: 1.7rem;
+  color: rgba(0, 0, 0, 0.76);
+  font-family: Courier, monospace;
+  margin-bottom: 1.5rem;
+}
+
+section .left a {
+  border-radius: 0.5rem;
+  font-weight: 900;
+  font-family: roboto;
+  padding: 5rem;
+  color: rgba(0, 0, 0, 0.452);
+  font-size: 2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-shadow: none;
+  padding: 0.5rem;
+  background: rgba(255, 255, 255, 0.87);
+  -webkit-box-shadow: 0 8px 32px 0 rgba(10, 10, 10, 0.37);
+          box-shadow: 0 8px 32px 0 rgba(10, 10, 10, 0.37);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+section .left a:hover {
+  color: black;
+}
+/*# sourceMappingURL=style.css.map */

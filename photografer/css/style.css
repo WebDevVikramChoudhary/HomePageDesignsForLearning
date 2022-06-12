@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Merriweather", serif;
+}
+
+header {
+  background-image: url("../bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 7%;
+  padding: 0 3rem;
+}
+
+header nav a {
+  font-weight: bold;
+  font-family: "Dancing Script", cursive;
+  color: #ffd523;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+header nav ul {
+  list-style: none;
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+header nav ul a {
+  color: white;
+  font-family: roboto;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+header nav ul a:hover {
+  color: #ffd000;
+  border-bottom: 2px solid #ffd000;
+}
+
+header nav ul li:nth-child(1) a {
+  color: #ffd000;
+  border-bottom: 2px solid #ffd000;
+}
+
+header .hero {
+  position: absolute;
+  top: 40%;
+  left: 3rem;
+}
+
+header .hero h2 {
+  color: #ffffff;
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+
+header .hero h1 {
+  color: #ffd000;
+  font-size: 3rem;
+}
+
+header .hero p {
+  color: #ffffffa6;
+  font-size: 1rem;
+  font-weight: 100;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+/*# sourceMappingURL=style.css.map */

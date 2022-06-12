@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: roboto;
+}
+
+header {
+  background-image: url("../bit.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+header nav a {
+  font-weight: 900;
+  padding: 1rem;
+  color: white;
+  font-size: 2rem;
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-shadow: 3px 5px 4px #918a8a;
+}
+
+header nav ul {
+  padding: 2rem;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 25%;
+}
+
+header nav ul a {
+  font-weight: 500;
+  font-family: roboto;
+  padding: 1rem;
+  color: rgba(255, 255, 255, 0.521);
+  font-size: 1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-shadow: none;
+}
+
+header nav ul a:hover {
+  color: white;
+}
+
+header section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 10%;
+}
+
+header section .left {
+  margin-top: 4rem;
+}
+
+header section .left h1 {
+  font-weight: 900;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: #fffb00;
+}
+
+header section .left h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.507);
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+header section .left a {
+  font-weight: 500;
+  font-family: roboto;
+  padding: 1rem;
+  color: white;
+  font-size: 1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-shadow: none;
+  background: rgba(255, 215, 0, 0.9);
+  -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+          box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+header section .left a:hover {
+  color: black;
+}
+/*# sourceMappingURL=style.css.map */

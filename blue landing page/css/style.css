@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #101820;
+}
+
+nav {
+  margin-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+nav h1 {
+  font-size: 2rem;
+  color: #006b38;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+nav ul {
+  min-width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style: none;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+
+nav ul a:hover {
+  color: #006b38;
+}
+
+section {
+  min-height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 8em;
+}
+
+section .left {
+  max-width: 50%;
+}
+
+section .left h1 {
+  color: #006b38;
+  font-size: 3rem;
+  font-family: roboto;
+  margin-bottom: 0.5rem;
+}
+
+section .left p {
+  font-family: roboto;
+  font-size: 0.9rem;
+  color: #285f44;
+  margin-bottom: 2rem;
+}
+
+section .left a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.5rem;
+  background-color: #006b38;
+  padding: 0.4em;
+}
+
+section .left a:hover {
+  color: #006b38;
+  background-color: white;
+}
+
+section .right {
+  max-width: 15rem;
+  background-color: #ffffff;
+  height: 20rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=style.css.map */

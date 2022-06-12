@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  background-image: url("../bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 4rem;
+  height: 7%;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #ff8800;
+  font-size: 2rem;
+  font-family: serif;
+}
+
+header nav a img {
+  height: 28px;
+  width: 28px;
+}
+
+header nav ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 50%;
+}
+
+header nav ul a {
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #ffffffa1;
+  font-family: roboto;
+  font-size: 1rem;
+}
+
+header nav ul a:hover {
+  color: #ff8800;
+  border-bottom: 2px solid #ff8800;
+}
+
+header nav ul li:nth-child(1) a {
+  color: #ff8800;
+  border-bottom: 2px solid #ff8800;
+}
+
+header nav #search {
+  border-radius: 10px;
+  background-color: #ff8800;
+  height: 25px;
+  border: none;
+}
+
+header nav #search::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.404);
+  text-align: right;
+  margin-right: 1.3rem;
+}
+
+header nav #search:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.404);
+  text-align: right;
+  margin-right: 1.3rem;
+}
+
+header nav #search::-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.404);
+  text-align: right;
+  margin-right: 1.3rem;
+}
+
+header nav #search::placeholder {
+  color: rgba(255, 255, 255, 0.404);
+  text-align: right;
+  margin-right: 1.3rem;
+}
+
+header nav .img {
+  position: absolute;
+  top: 2%;
+  right: 4.3rem;
+  height: 20px;
+  width: 20px;
+}
+
+header section {
+  position: absolute;
+  top: 32%;
+  left: 4rem;
+}
+
+header section h1 {
+  text-transform: capitalize;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 4rem;
+  color: rgba(255, 255, 255, 0.795);
+}
+
+header section h1::first-letter {
+  color: #ff8800;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+header section h2 {
+  font-size: 3rem;
+  color: rgba(255, 255, 255, 0.795);
+}
+
+header section a {
+  font-family: serif;
+  font-size: 2rem;
+  color: #ff8800;
+}
+/*# sourceMappingURL=style.css.map */

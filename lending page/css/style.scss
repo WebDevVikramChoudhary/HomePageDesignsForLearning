@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+header {
+  background-image: url("../bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    a {
+      margin-left: -4%;
+      font-weight: 900;
+      padding: 1rem;
+      color: rgb(0, 247, 255);
+      font-size: 2rem;
+      text-decoration: none;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      text-shadow: 3px 5px 4px rgba(0, 247, 255, 0.521);
+    }
+    ul {
+      padding: 2rem;
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      width: 25%;
+      li:nth-child(1) a {
+        color: rgb(0, 247, 255);
+      }
+      a {
+        font-weight: 500;
+        font-family: roboto;
+        padding: 1rem;
+        color: rgba(0, 247, 255, 0.521);
+        font-size: 1rem;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-shadow: none;
+        &:hover {
+          color: rgb(0, 247, 255);
+        }
+      }
+    }
+  }
+}
+section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 10%;
+  .left {
+    margin-top: 3rem;
+    h1 {
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+      font-weight: 900;
+      font-size: 4rem;
+      color: white;
+      margin-bottom: 1rem;
+    }
+    h2 {
+      font-weight: 500;
+      font-size: 2rem;
+      color: rgba(255, 255, 255, 0.76);
+      font-family: Courier, monospace;
+      margin-bottom: 1.5rem;
+    }
+    a {
+      border-radius: 0.5rem;
+      font-weight: 900;
+      font-family: roboto;
+      padding: 5rem;
+      color: rgb(255, 255, 255);
+      font-size: 2rem;
+      text-decoration: none;
+      text-transform: uppercase;
+      text-shadow: none;
+      padding: 0.5rem;
+      background-color: rgba(0, 247, 255, 0.438);
+      &:hover {
+        color: rgb(0, 247, 255);
+      }
+    }
+  }
+}

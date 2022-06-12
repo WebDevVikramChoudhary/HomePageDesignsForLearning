@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: roboto;
+  background-color: black;
+}
+
+h1,
+p,
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a,
+h1 {
+  font-size: 2rem;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  height: 100vh;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+header nav h1 {
+  margin-left: -13%;
+}
+
+header ul {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border-radius: 0 0 0 0.5rem;
+  width: 100%;
+  background-color: red;
+  width: 40%;
+  height: 15%;
+  margin-right: -21.8%;
+}
+
+header ul a:hover {
+  color: black;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+section .con {
+  margin-left: 2rem;
+}
+
+section .con h1 {
+  font-size: 3rem;
+  color: red;
+}
+
+section .con h2 {
+  font-size: 3rem;
+  color: white;
+}
+
+section img {
+  position: relative;
+}
+
+section img:hover {
+  -webkit-filter: drop-shadow(8px 8px 10px red);
+          filter: drop-shadow(8px 8px 10px red);
+}
+
+section p {
+  margin-top: 3px;
+  color: rgba(255, 255, 255, 0.658);
+}
+
+section .deco {
+  position: absolute;
+  width: 30%;
+  background-color: red;
+  height: 90%;
+  top: 0;
+  left: 2rem;
+  z-index: -1;
+  border-radius: 0 0 10rem 10rem;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-image: url("../bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  font-family: roboto;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 10rem;
+  height: 3rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #196e08;
+  font-weight: 800;
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+
+nav ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 40%;
+}
+
+nav ul a {
+  font-family: roboto;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #196e08;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+nav ul a:hover {
+  border-bottom: 2px solid #196e08;
+}
+
+nav ul li:nth-child(1) a {
+  border-bottom: 2px solid #196e08;
+}
+
+header {
+  position: absolute;
+  top: 35%;
+  left: 10rem;
+}
+
+header h1 {
+  font-size: 3.5rem;
+  color: #196e08;
+}
+
+header h1:nth-child(3) {
+  margin-bottom: 1rem;
+}
+
+header a {
+  font-family: roboto;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: rgba(255, 255, 0, 0.774);
+  font-weight: 700;
+  font-size: 2rem;
+  color: #196e08;
+  padding: 0.3rem;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=style.css.map */

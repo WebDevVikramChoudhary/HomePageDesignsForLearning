@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: roboto;
+  scroll-behavior: smooth;
+}
+
+header {
+  width: 100%;
+  height: 105vh;
+  background-image: url("../bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header nav {
+  background-color: rgba(44, 44, 44, 0.247);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 3%;
+}
+
+header nav a {
+  font-family: Oxygen, Helvetica Neue;
+  color: #52057b;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+header nav ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 40%;
+}
+
+header nav ul a {
+  text-transform: uppercase;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+header nav ul a:hover {
+  color: #892cdc;
+  border-bottom: 3px solid #892cdc;
+}
+
+header nav ul li:nth-child(1) a {
+  color: #892cdc;
+  border-bottom: 3px solid #892cdc;
+}
+
+header nav div img {
+  -webkit-filter: grayscale(0.9);
+          filter: grayscale(0.9);
+  cursor: pointer;
+}
+
+header nav div img:hover {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+}
+/*# sourceMappingURL=style.css.map */
